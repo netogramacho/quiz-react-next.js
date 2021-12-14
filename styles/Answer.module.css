@@ -1,0 +1,46 @@
+.answer {
+    display: flex;
+    min-width: 500px;
+    width: 80%;
+    height: 100px;
+    margin: 10px;
+}
+
+.answerContent {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.front,
+.back {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.front {
+    background-color: #FFF;
+    align-items: center;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.char {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.value {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000;
+}
